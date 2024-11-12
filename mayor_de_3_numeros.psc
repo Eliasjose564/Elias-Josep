@@ -12,7 +12,9 @@ proceso mayor_de_3_numeros
 			escribir "el mayor es :", num1;
 		SiNo
 			si ((num2 > num1 ) y ( num2 > num3)) entonces 
-				escribir "el mayor es:", num3;
+				escribir "el mayor es:", num2;
+			SiNo
+				escribir "el mayor es: ", mun3;
 			FinSi
 		FinSi
 FinProceso
